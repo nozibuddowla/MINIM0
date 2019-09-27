@@ -1,0 +1,318 @@
+@font-face {
+	font-family: 'Playfair Display', serif;
+	src: url(../fonts/PlayfairDisplay-Regular.ttf) format("ttf"),
+}
+@font-face {
+	font-family: 'Ubuntu', sans-serif;
+	src: url(../fonts/Ubuntu-Light.ttf) format("ttf"),
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, 
+h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, 
+sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, 
+label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, 
+aside, canvas, details, embed, figure, figcaption, footer, header, 
+hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, 
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body{
+	background-color: #FFFFFF;
+	line-height: 1;
+}
+ul{
+	list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.clear {
+  clear: both;
+}
+.container{
+	/*border: 1px solid;*/
+	overflow: hidden;
+	width: 90%;
+    margin: 0 auto;
+}
+.wrapper{
+	/*border: 1px solid;*/
+	overflow: hidden;
+	width: 80%;
+    margin: 0 auto;
+}
+/*header start*/
+nav{
+	width: 100%;
+}
+.logo{
+	width: 10%;
+	float: left;
+}
+nav .logo h1{
+	text-indent: -10000px;
+	width: 119px;
+	height: 23px;
+	background: url(../images/logo.png);
+	margin: 70px 0px 60px;
+}nav ul.menu{
+	width: 65.4%;
+	/*border: 1px solid;*/
+	float: right;
+	margin-top: 75px;
+}
+nav ul.menu li {
+    float: left;
+    margin-left: 100px;
+
+}
+nav ul.menu li a {
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #626262;
+    transition: .3s ease;
+    padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+nav ul.menu li:last-child a{
+	padding-right: 0;
+}
+nav ul.menu li a:hover {
+	color: #000000;
+	border-bottom: 2px solid #626262;
+}
+nav img{
+	width: 100%;
+	clear: both;
+	margin-bottom: 95px;
+}
+/*header end*/
+/*article start*/
+section article span {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #b4ad9e;
+}
+section article h1 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 30px;
+	margin-top: 30px;
+    margin-bottom: 35px;
+    color: #626262;
+}
+section article p {
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+    font-size: 14px;
+    color: #626262;
+    margin-bottom: 50px;
+    line-height: 23px;
+	letter-spacing: 1px;
+    word-spacing: 2px;
+}
+/*article end*/
+/*blog start*/
+section.item .box_item{
+	/*border: 1px solid violet;*/
+    width: 45%;
+    margin-top: 135px;
+    float: left;
+    position: relative;
+	overflow: hidden;
+}
+section.item .box_item:nth-child(even) {
+	margin-left: 10%;
+}
+section.item .box_item img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+section.item .box_item span {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: #b4ad9e;
+}
+section.item .box_item h1 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 30px;
+	margin-top: 30px;
+    color: #626262;
+}
+section.item .box_item p {
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+    font-size: 14px;
+    color: #626262;
+    margin-top: 35px;
+    line-height: 23px;
+	letter-spacing: 1px;
+    word-spacing: 2px;
+}
+/*blog end*/
+/*newlwetter start*/
+.signup{
+	text-align: center;
+    width: 100%;
+    height: 285px;
+    margin-top: 125px;
+    background-color: #f0f0f0;
+}
+.signup h1{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 75px;
+    color: #333333;
+}
+.for_form{
+	width: 350px;
+	position: relative;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.for_form input{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+    color: #626262;
+	background: transparent;
+	border: none;
+	font-size: 14px;
+	width: 260px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	margin-top: 80px;
+    border-bottom: 2px solid #333333;
+}
+.for_form button{
+	border: none;
+	background: transparent;
+	position: absolute;
+	margin-top: 70px;
+	top: 10px;
+	right: 35px;
+}
+/*newlwetter end*/
+
+/*loadbox start*/
+div.loadbox{
+    text-align: center;
+    margin-top: 160px;
+    margin-bottom: 190px;
+    box-shadow: 0 0 black;
+}
+div.loadbox button.loadmore {
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    border: none;
+    background: none;
+    font-size: 20px;
+    border: 2px solid #333333;
+    padding: 15px;
+    transition: 1s ease;
+}
+div.loadbox button.loadmore:hover {
+  border: 2px solid #333333;
+  background: #333333;
+  color: #f0f0f0;
+}
+/*loadbox end*/
+/*footer start*/
+footer {
+  	width: 100%;
+	background-color: #F0F0F0;
+	/*border: 1px solid red;*/
+}
+footer .left{
+	width: 28%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	float: left;
+}
+footer ul.info1 {
+	/*border: 1px solid blue;*/
+	list-style: none;
+  	float: right;
+}
+footer ul.info1 li {
+  /*margin-left: 15px;*/
+  float: left;
+}
+footer ul.info1 li a{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s ease;
+	padding-right: 15px;
+}
+footer ul.info1 li:last-child a{
+	padding-right: 0;
+}
+footer ul.info1 li a:hover {
+	color: #626262;
+	border-bottom: 2px solid #626262;
+}
+footer .right{
+	width: 40%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	float: right;
+}
+footer ul.info2 {
+  	/*padding: 47px;*/
+  	float: right;
+}
+footer ul.info2 li {
+  /*margin-left: 100px;*/
+  float: left;
+}
+footer ul.info2 li a {
+  color: #333333;
+}
+footer ul.info2 li a{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    transition: .3s ease;
+	padding-right: 15px;
+}
+footer ul.info2 li a:hover {
+	color: #626262;
+	border-bottom: 2px solid #626262;
+}
+/*footer end*/
